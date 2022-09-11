@@ -6,6 +6,7 @@
   --text: #1E1E1E;
   --paragraph: Gravity;
   --title: Anticva;
+  --orange: #FFA800;
 }
 header {
   display: flex;
@@ -44,4 +45,17 @@ header {
   font-size: 25px;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+}
+#workWithMeButton {
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: solid 1px var(--orange);
+  padding: 18px 30px 13px 30px;
+  color: var(--text);
+  font-family: var(--title);
+  margin-top: 150px;
+  background: none;
 }
