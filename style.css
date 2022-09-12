@@ -59,4 +59,23 @@ header {
   font-family: var(--title);
   margin-top: 150px;
   background: none;
+  cursor: pointer;
+}
+.myProjects {
+  color: var(--text);
+  font-family: var(--paragraph);
+  font-weight: lighter;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+.myProjects p {
+  padding: 0 40px 0 40px;
+}
+.frontend {
+  border-left: 1px solid var(--text);
+}
+hr {
+  margin: 25px 100px 65px 100px;
 }
