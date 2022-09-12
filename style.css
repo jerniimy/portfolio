@@ -23,6 +23,10 @@ header {
   text-decoration: none;
   padding-right: 40px;
   padding-left: 40px;
+  transition: all ease 0.5s;
+}
+.menu a:hover {
+  color: var(--orange);
 }
 .projects {
   border-right: solid 1px var(--text);
@@ -48,7 +52,7 @@ header {
   justify-content: center;
   margin-top: 10px;
 }
-#workWithMeButton {
+.workWithMeButton {
   display: flex;
   left: 0;
   right: 0;
@@ -60,6 +64,11 @@ header {
   margin-top: 150px;
   background: none;
   cursor: pointer;
+  transition: all ease 0.5s;
+}
+.workWithMeButton:hover {
+  background: var(--orange);
+  color: #fff;
 }
 .myProjects {
   color: var(--text);
@@ -77,5 +86,5 @@ header {
   border-left: 1px solid var(--text);
 }
 hr {
-  margin: 25px 100px 65px 100px;
+  margin: 20px 100px 65px 100px;
 }
