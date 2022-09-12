@@ -3,7 +3,7 @@
   margin: 0;
  }
 :root {
-  --text: #1E1E1E;
+  --grey: #1E1E1E;
   --paragraph: Gravity;
   --title: Anticva;
   --orange: #FFA800;
@@ -12,14 +12,14 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-  color: var(--text);
+  color: var(--grey);
   font-family: var(--paragraph);
   font-weight: 350;
   margin-left: 100px;
   margin-right: 100px;
 }
 .menu a {
-  color: var(--text);
+  color: var(--grey);
   text-decoration: none;
   padding-right: 40px;
   padding-left: 40px;
@@ -29,13 +29,13 @@ header {
   color: var(--orange);
 }
 .projects {
-  border-right: solid 1px var(--text);
+  border-right: solid 1px var(--grey);
 }
 .about {
-  border-right: solid 1px var(--text);
+  border-right: solid 1px var(--grey);
 }
 .title {
-  color: var(--text);
+  color: var(--grey);
   font-family: var(--title);
   font-size: 70px;
   padding-top: 30px;
@@ -44,7 +44,7 @@ header {
   margin-top: 150px;
 }
 .whoAmI {
-  color: var(--text);
+  color: var(--grey);
   font-family: var(--paragraph);
   font-weight: lighter;
   font-size: 25px;
@@ -59,7 +59,7 @@ header {
   margin: auto;
   border: solid 1px var(--orange);
   padding: 18px 30px 13px 30px;
-  color: var(--text);
+  color: var(--grey);
   font-family: var(--title);
   margin-top: 150px;
   background: none;
@@ -71,7 +71,7 @@ header {
   color: #fff;
 }
 .myProjects {
-  color: var(--text);
+  color: var(--grey);
   font-family: var(--paragraph);
   font-weight: lighter;
   font-size: 25px;
@@ -83,7 +83,7 @@ header {
   padding: 0 40px 0 40px;
 }
 .frontend {
-  border-left: 1px solid var(--text);
+  border-left: 1px solid var(--grey);
 }
 hr {
   margin: 20px 100px 65px 100px;
