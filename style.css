@@ -89,6 +89,7 @@ header {
 }
 .myProjects p {
   padding: 0 40px 0 40px;
+  cursor: pointer;
 }
 .frontend {
   border-left: 1px solid var(--grey);
@@ -115,4 +116,10 @@ hr {
 }
 .drinks.active {
   display: block;
+}
+.Projects.active {
+  display: block;
+}
+.Projects {
+  display: none;
 }

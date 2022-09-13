@@ -22,9 +22,10 @@
     <p class="whoAmI paragraph"> веб-дизайнер, UI/UX-дизайнер, frontend-разработчик</p>
     <input type="button" class="workWithMeButton" value="поработать со мной" onclick="">
     <div class="myProjects paragraph">
-      <p class="design">дизайн-проекты</p>
-      <p class="frontend">frontend-проекты</p>
+      <p class="design" onclick="switchToDesign()">дизайн-проекты</p>
+      <p class="frontend" onclick="switchToFrontend()">frontend-проекты</p>
     </div>
+    <div id="designBlock" class="Projects active">
     <hr>
     <div class="firstProject">
     <div class="text">
@@ -58,7 +59,8 @@
       <img class="siteDesignImg drinks active" src="svg/drinkSite1.svg" alt="main page for drinks">
       <img class="siteDesignImg drinks" src="svg/drinkSite2.svg" alt="main page for drinks">
       <img class="siteDesignImg drinks" src="svg/drinkSite3.svg" alt="main page for drinks">
-    </div><hr>
+    </div>
+    <hr>
     <div class="firstProject">
       <div class="text">
         <p class="projectTitle">Дизайн интернет-магазина велотоваров</p>
@@ -66,6 +68,17 @@
       </div>
       <img class="siteDesignImg" src="svg/recycle.svg" alt="main page for recycle brand ">
     </div>
+  </div>
+  <div id="frontendBlock" class="Projects">
+    <hr>
+    <div class="firstProject">
+      <div class="text">
+        <p class="projectTitle">Дизайн интернет-магазина велотоваров</p>
+        <p class="paragraph">дизайн-макет, 2021 г</p>
+      </div>
+      <img class="siteDesignImg" src="svg/drinkSite1.svg" alt="main page for drinks">
+    </div>
+  </div>
    <script src="main.js"></script>
  </body>
 </html>
