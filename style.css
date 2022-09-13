@@ -110,3 +110,9 @@ hr {
   font-family: var(--title);
   color: var(--grey);
 }
+.drinks {
+  display: none;
+}
+.drinks.active {
+  display: block;
+}
