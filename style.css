@@ -6,7 +6,7 @@
   --grey: #1E1E1E;
   --paragraph: Gravity;
   --title: Anticva;
-  --orange: #FFA800;
+  --orange: #FA5A0A;
 }
 .paragraph {
   color: var(--grey);
@@ -54,26 +54,53 @@ header {
   color: var(--grey);
   font-family: var(--title);
   font-size: 70px;
-  padding-top: 30px;
+}
+.name {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 230px;
+}
+.wrapper {
+  display: flex;
+  padding: 0 113px 0 100px;
+  margin-bottom: 100px;
+  align-items: flex-end;
+}
+.aboutMe {
+  margin-top: 375px;
+}
+.aboutMeWrapper {
+  margin: 160px 0 0 100px;
+  width: 750px;
+  height: 283px;
+  border-left: 1px solid var(--grey);
+  padding-left: 100px;
+}
+.greeting {
+  font-family: var(--title);
+  font-size: 35px;
+  margin-bottom: 17px;
 }
 .whoAmI {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-.workWithMeButton {
+.mainPageButton {
   display: flex;
   left: 0;
   right: 0;
   margin: auto;
+  margin-top: 150px;
+}
+.aboutMePageButton {
+  margin-top: 32px;
+}
+.workWithMeButton {
   border: solid 1px var(--orange);
   padding: 18px 30px 13px 30px;
   color: var(--grey);
   font-family: var(--title);
-  margin-top: 150px;
   background: none;
   cursor: pointer;
   transition: all ease 0.5s;
