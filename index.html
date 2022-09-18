@@ -22,61 +22,81 @@
     <p class="whoAmI paragraph"> веб-дизайнер, UI/UX-дизайнер, frontend-разработчик</p>
     <a href="#footer"><div class="workWithMeButton mainPageButton">поработать со мной</div></a>
     <div class="myProjects paragraph">
-      <p class="design" onclick="switchToDesign()">дизайн-проекты</p>
-      <p class="frontend" onclick="switchToFrontend()">frontend-проекты</p>
+      <div id="design" class="active" onclick="switchToDesign()">дизайн-проекты</div>
+      <div id="frontend" onclick="switchToFrontend()">frontend-проекты</div>
     </div>
     <div id="designBlock" class="Projects active">
     <hr>
     <div class="firstProject">
     <div class="text">
-      <p class="projectTitle title">Дизайн интернет-магазина велотоваров</p>
-      <p class="paragraph">дизайн-макет, 2021 г</p>
+      <p class="projectTitle">Интернет-магазин велотоваров</p>
+      <p class="paragraph">дизайн-концепт</p>
     </div>
-    <img class="siteDesign" src="svg/bicycleSite.svg" alt="main page for bicycle online-store">
+    <img class="siteDesignImg" src="svg/bicycleSite.svg" alt="main page for bicycle online-store">
     </div>
     <hr>
     <div class="firstProject">
       <div class="text">
-        <p class="projectTitle title">Дизайн интернет-магазина велотоваров</p>
-        <p class="paragraph">дизайн-макет, 2021 г</p>
+        <p class="projectTitle">Магазин музыкальных товаров</p>
+        <p class="paragraph">дизайн-концепт</p>
       </div>
-      <img class="siteDesignImg" src="svg/mouseSite.svg" alt="main page for site with goods for gamers">
+      <img class="siteDesignImg" src="svg/musicTechSite.svg" alt="main page for online-store of music technic">
     </div>
     <hr>
     <div class="firstProject">
       <div class="text">
-        <p class="projectTitle title">Дизайн интернет-магазина велотоваров</p>
-        <p class="paragraph">дизайн-макет, 2021 г</p>
+        <p class="projectTitle">Кофейня с доставкой напитков</p>
+        <p class="paragraph">дизайн-концепт</p>
       </div>
-      <img class="siteDesignImg" src="svg/coffeeShopSite.svg" alt="main page for coffeeShop">
+      <img class="siteDesignImg" src="svg/drinkSite.svg" alt="main page for drinks">
     </div>
     <hr>
     <div class="firstProject">
       <div class="text">
-        <p class="projectTitle title">Дизайн интернет-магазина велотоваров</p>
-        <p class="paragraph">дизайн-макет, 2021 г</p>
-      </div>
-      <img class="siteDesignImg drinks active" src="svg/drinkSite1.svg" alt="main page for drinks">
-      <img class="siteDesignImg drinks" src="svg/drinkSite2.svg" alt="main page for drinks">
-      <img class="siteDesignImg drinks" src="svg/drinkSite3.svg" alt="main page for drinks">
-    </div>
-    <hr>
-    <div class="firstProject">
-      <div class="text">
-        <p class="projectTitle title">Дизайн интернет-магазина велотоваров</p>
-        <p class="paragraph">дизайн-макет, 2021 г</p>
+        <p class="projectTitle">организация по переработке<br>мусора</p>
+        <p class="paragraph">дизайн-концепт</p>
       </div>
       <img class="siteDesignImg" src="svg/recycle.svg" alt="main page for recycle brand ">
     </div>
-  </div>
+    <hr>
+    <div class="posters">
+      <div class="titles">
+        <div class="title" id="cinema" onmouseover="cinemaHover()" onmouseout="cinemaStop()">
+          Постер кинофестиваля
+          <img class="arrow" src="svg/arrow.svg">
+        </div>
+          <div class="title" id="rings" onmouseover="ringsHover()" onmouseout="ringsStop()">
+             Рекламный лист фруктовых колец
+            <img class="arrow" src="svg/arrow.svg">
+          </div>
+          <div class="title" id="planet" onmouseover="planetHover()" onmouseout="planetStop()">
+            Афиша планетария
+            <img class="arrow" src="svg/arrow.svg">
+          </div>
+          <div class="title" id="cosmetics" onmouseover="cosmeticsHover()" onmouseout="cosmeticsStop()">
+            Реклама косметических средств
+            <img class="arrow" src="svg/arrow.svg">
+          </div>
+        </div>
+        <div class="img">
+        <div class="border"></div>
+        <img class="posterImg" id="cinemaPoster" src="svg/posterCinema.svg">
+        <img class="posterImg" id="ringsPoster" src="svg/posterRings.svg">
+        <img class="posterImg" id="planetPoster" src="svg/posterPlanet.svg">
+        <img class="posterImg" id="cosmeticsPoster" src="svg/posterCosmetics.svg">
+      </div>
+      </div>
+    </div>
+</div>
   <div id="frontendBlock" class="Projects">
     <hr>
     <div class="firstProject">
       <div class="text">
-        <p class="projectTitle title">Дизайн интернет-магазина велотоваров</p>
-        <p class="paragraph">дизайн-макет, 2021 г</p>
+        <p class="projectTitle title">КАЛЬКУЛЯТОР НА HTML, CSS И JS</p>
+        <a href="https://jerniimy.github.io/calculator/" class="watchProject"><p class="paragraph">посмотреть проект</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
+        <a href="https://github.com/jerniimy/calculator" class="watchProject"><p class="paragraph">github</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
       </div>
-      <img class="siteDesignImg" src="svg/drinkSite1.svg" alt="main page for drinks">
+      <img class="siteDesignImg" src="svg/calculator.svg" alt="calculator">
     </div>
   </div>
   <footer class="paragraph" id="footer">
