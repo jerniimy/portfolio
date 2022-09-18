@@ -2,6 +2,15 @@
   padding: 0;
   margin: 0;
  }
+ @font-face {
+ font-family: Anticva;
+ src: url("font/antiqua.ttf") format("ttf");
+ }
+ @font-face {
+ font-family: Gravity;
+ font-weight: bold;
+ src: url("font/Gravity-Bold.otf") format("opentype");
+ }
 :root {
   --grey: #1E1E1E;
   --paragraph: Gravity;
