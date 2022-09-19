@@ -1,15 +1,37 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
  }
  @font-face {
  font-family: Anticva;
  src: url("font/antiqua.ttf") format("ttf");
  }
  @font-face {
+ font-weight: 200;
  font-family: Gravity;
- font-weight: bold;
- src: url("font/Gravity-Bold.otf") format("opentype");
+ src: url("font/Gravity-Light.otf") format("opentype");
+ }
+ @font-face {
+ font-weight: 200;
+ font-family: Gravity;
+ font-style: italic;
+ src: url("font/Gravity-LightItalic.otf") format("opentype");
+ }
+ @font-face {
+ font-weight: 300;
+ font-family: Gravity;
+ src: url("font/Gravity-Book.otf") format("opentype");
+ }
+ @font-face {
+  font-weight: 400;
+  font-family: Gravity;
+  src: url("../fonts/Gravity-Regular.otf");
+}
+ @font-face {
+ font-weight: 700;
+ font-family: Gravity;
+ src: url("font/Gravity-Bold.otf");
  }
 :root {
   --grey: #1E1E1E;
@@ -21,7 +43,7 @@
   color: var(--grey);
   font-family: var(--paragraph);
   font-size: 25px;
-  font-weight: lighter;
+  font-weight: 200;
 }
 .anticvaLittle {
   font-family: var(--title);
@@ -33,7 +55,10 @@ header {
   margin: 20px 100px 0 100px;
   color: var(--grey);
   font-family: var(--paragraph);
-  font-weight: 300;
+  font-weight: 100;
+}
+.logo {
+  font-style: italic;
 }
 a {
   text-decoration: none;
@@ -276,10 +301,11 @@ hr {
   margin: 0 100px;
 }
 .titles {
+  font-family: var(--title);
   display: flex;
   flex-direction: column;
 }
-.title {
+.titlePoster {
   display: flex;
   font-size: 25px;
   align-self: flex-start;
@@ -287,7 +313,7 @@ hr {
   margin: 5px;
   width: max-content;
 }
-.title:hover {
+.titlePoster:hover {
   background: var(--orange);
 }
 .img {
