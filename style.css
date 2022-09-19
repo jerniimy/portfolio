@@ -229,7 +229,7 @@ hr {
 }
 .block {
   box-sizing: border-box;
-  width: 42vw;
+  width: 40vw;
   height: 60vh;
   max-height: 450px;
   background: #F9F4F0;
@@ -280,12 +280,13 @@ hr {
 .educationBlockWrapper {
   display: flex;
   justify-content: space-between;
+  margin: 0 100px;
 }
 .educationBlock {
-  margin: 55px 0 0 100px;
+  margin-top: 55px;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 30vw;
 }
 .educationTitle {
   padding: 10px 0;
@@ -348,7 +349,7 @@ footer {
   height: 35vh;
   background: #F5F5F5;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
   .img {
     display: grid;
     grid-template-columns: 10px 260px 10px;
@@ -364,5 +365,19 @@ footer {
   }
   .arrow {
     width: 15px;
+  }
+  .block {
+    width: 38vw;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .educationBlock {
+    width: 22vw;
+  }
+}
+@media (max-width: 1440px) {
+  .programm img {
+    width: 60%;
   }
 }
