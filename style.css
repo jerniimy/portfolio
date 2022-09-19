@@ -359,8 +359,9 @@ footer {
     width: 280px;
   }
   .titlePoster {
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px 5px 0 5px;
+    margin: 25px;
   }
   .arrow {
     width: 15px;
