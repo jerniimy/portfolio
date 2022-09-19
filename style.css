@@ -230,8 +230,9 @@ hr {
 .block {
   box-sizing: border-box;
   width: 40vw;
+  min-height: 450px;
   height: 60vh;
-  max-height: 450px;
+  max-height: 600px;
   background: #F9F4F0;
   padding: 35px;
   margin-top: 45px;
@@ -367,7 +368,7 @@ footer {
     width: 15px;
   }
   .block {
-    width: 38vw;
+    width: 36vw;
   }
   .title {
     font-size: 35px;
