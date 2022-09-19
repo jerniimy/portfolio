@@ -40,3 +40,7 @@ document.getElementById('cosmetics').addEventListener('mouseover', (e) => {
 document.getElementById('cosmetics').addEventListener('mouseout', (e) => {
   document.getElementById('cosmeticsPoster').style.opacity = '0';
 });
+
+if (location.hash) {
+  history.replaceState({}, document.title, location.href.split('#')[0]);
+}
