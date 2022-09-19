@@ -332,9 +332,6 @@ hr {
   grid-row: 2/3;
   grid-column: 2/3;
 }
-.activePoster {
-  opacity: 1;
-}
 .border {
   width: 400px;
   grid-row: 1/3;
