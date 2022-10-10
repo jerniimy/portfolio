@@ -107,6 +107,9 @@ a {
   flex-wrap: wrap;
   margin-top: 230px;
 }
+.mainPage {
+  height: 100vh;
+}
 .wrapper {
   display: flex;
   padding: 0 100px 0 100px;
@@ -163,7 +166,6 @@ a {
 .myProjects {
   display: flex;
   justify-content: center;
-  margin-top: 180px;
 }
 .myProjects div {
   padding: 20px 0 20px 0;
@@ -194,6 +196,13 @@ hr {
 }
 .siteDesignImg {
   width: 55%;
+  overflow-y: scroll;
+  overflow-x: auto;
+  max-height: 500px;
+}
+.longImg {
+  min-height: 200px;
+  width: 100%;
 }
 .projectTitle {
   font-size: 25px;

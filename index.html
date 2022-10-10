@@ -6,21 +6,23 @@
   <link rel="stylesheet" href="style.css">
  </head>
  <body>
-   <header>
-     <a href="index.html"><p class="logo">Полина Позднякова</p></a>
-     <div class="menu">
-       <a href="index.html" class="projects">проекты</a>
-       <a href="about.html" class="about">обо мне</a>
-       <a href="https://drive.google.com/file/d/1JjbOrOAUUsb65K92sDlOWd7vb91PgQts/view?usp=sharing" class="resume">резюме</a>
+   <div class="mainPage">
+     <header>
+       <a href="index.html"><p class="logo">Полина Позднякова</p></a>
+       <div class="menu">
+         <a href="index.html" class="projects">проекты</a>
+         <a href="about.html" class="about">обо мне</a>
+         <a href="https://drive.google.com/file/d/1JjbOrOAUUsb65K92sDlOWd7vb91PgQts/view?usp=sharing" class="resume">резюме</a>
+      </div>
+      <div class="contacts">
+        <a href="https://discordapp.com/users/1014865489668878418/"><img src="svg/discord.svg"></a>
+        <a href="https://github.com/jerniimy"><img src="svg/github.svg"></a>
+      </div>
+    </header>
+      <p class="titleName name">Полина Позднякова</p>
+      <p class="whoAmI paragraph"> веб-дизайнер, UI/UX-дизайнер, frontend-разработчик</p>
+      <a href="#footer" rel="no-refresh"><div class="workWithMeButton mainPageButton">поработать со мной</div></a>
     </div>
-    <div class="contacts">
-      <a href="https://discordapp.com/users/1014865489668878418/"><img src="svg/discord.svg"></a>
-      <a href="https://github.com/jerniimy"><img src="svg/github.svg"></a>
-    </div>
-  </header>
-    <p class="titleName name">Полина Позднякова</p>
-    <p class="whoAmI paragraph"> веб-дизайнер, UI/UX-дизайнер, frontend-разработчик</p>
-    <a href="#footer" rel="no-refresh"><div class="workWithMeButton mainPageButton">поработать со мной</div></a>
     <div class="myProjects paragraph">
       <div id="design" class="active" onclick="switchToDesign()">дизайн-проекты</div>
       <div id="frontend" onclick="switchToFrontend()">frontend-проекты</div>
@@ -40,7 +42,9 @@
           <p class="projectTitle">Портфолио гейм-дизайнера</p>
           <p class="paragraph">дизайн-концепт</p>
         </div>
-        <img class="siteDesignImg" src="svg/cv.svg" alt="cv main page">
+        <div class="siteDesignImg">
+          <img class="longImg" src="Png/Purpose.png" alt="cv main page">
+        </div>
       </div>
       <hr>
       <div class="firstProject">
@@ -108,20 +112,22 @@
     <hr>
     <div class="firstProject">
       <div class="text">
+        <p class="projectTitle title">портфолио НА HTML, CSS И JS</p>
+        <a href="https://jerniimy.github.io/kostiazaitsev" class="watchProject"><p class="paragraph">посмотреть проект</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
+        <a href="https://github.com/jerniimy/kostiazaitsev" class="watchProject"><p class="paragraph">github</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
+      </div>
+      <div class="siteDesignImg">
+        <img class="longImg" src="Png/Purpose.png" alt="cv main page">
+      </div>
+    </div>
+    <hr>
+    <div class="firstProject">
+      <div class="text">
         <p class="projectTitle title">КАЛЬКУЛЯТОР НА HTML, CSS И JS</p>
         <a href="https://jerniimy.github.io/calculator" class="watchProject"><p class="paragraph">посмотреть проект</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
         <a href="https://github.com/jerniimy/calculator" class="watchProject"><p class="paragraph">github</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
       </div>
       <img class="siteDesignImg" src="svg/calculator.svg" alt="calculator">
-    </div>
-    <hr>
-    <div class="firstProject">
-      <div class="text">
-        <p class="projectTitle title">портфолио НА HTML, CSS И JS</p>
-        <a href="https://jerniimy.github.io/kostiazaitsev" class="watchProject"><p class="paragraph">посмотреть проект</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
-        <a href="https://github.com/jerniimy/kostiazaitsev" class="watchProject"><p class="paragraph">github</p><img class="arrow-project" src="svg/arrowOrange.svg"></a>
-      </div>
-      <img class="siteDesignImg" src="svg/cv.svg" alt="portfolio">
     </div>
   </div>
   <footer class="paragraph" id="footer">
