@@ -105,10 +105,12 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 230px;
+  margin-top: 35vh;
 }
 .mainPage {
+  position: relative;
   height: 100vh;
+  min-height: 600px;
 }
 .wrapper {
   display: flex;
@@ -138,11 +140,11 @@ a {
   margin-top: 10px;
 }
 .mainPageButton {
+  position: absolute;
   display: flex;
   left: 0;
   right: 0;
-  margin: auto;
-  margin-top: 150px;
+  margin: 150px auto;
 }
 .aboutMePageButton {
   margin-top: 32px;
