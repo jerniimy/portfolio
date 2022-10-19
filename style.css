@@ -57,7 +57,7 @@ header {
   font-family: var(--paragraph);
   font-weight: 100;
 }
-.logo {
+header p {
   font-style: italic;
 }
 a {
@@ -91,17 +91,31 @@ a {
 .about {
   border-right: solid 1px var(--grey);
 }
-.titleName {
+.workWithMeButton {
+  border: solid 1px var(--orange);
+  padding: 18px 30px 13px 30px;
   color: var(--grey);
   font-family: var(--title);
-  font-size: 70px;
+  font-size: 15px;
+  background: none;
+  cursor: pointer;
+  width: max-content;
+  min-width: 200px;
+  transition: all ease 0.5s;
+}
+.workWithMeButton:hover {
+  background: var(--orange);
+  color: #fff;
 }
 .title {
   font-family: var(--title);
   color: var(--grey);
   font-size: 45px;
 }
-.name {
+.titleName {
+  color: var(--grey);
+  font-family: var(--title);
+  font-size: 70px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -144,26 +158,11 @@ a {
   display: flex;
   left: 0;
   right: 0;
-  margin: 150px auto;
+  margin: auto;
+  bottom: 200px;
 }
 .aboutMePageButton {
   margin-top: 32px;
-}
-.workWithMeButton {
-  border: solid 1px var(--orange);
-  padding: 18px 30px 13px 30px;
-  color: var(--grey);
-  font-family: var(--title);
-  font-size: 15px;
-  background: none;
-  cursor: pointer;
-  width: max-content;
-  min-width: 200px;
-  transition: all ease 0.5s;
-}
-.workWithMeButton:hover {
-  background: var(--orange);
-  color: #fff;
 }
 .myProjects {
   display: flex;
@@ -272,10 +271,8 @@ hr {
 .workWithMe {
   margin: 150px 100px 0 100px;
 }
-.soft-skillTitle {
-  font-family: var(--title);
+.soft-skillBlock > .anticvaLittle {
   color: var(--orange);
-  font-size: 20px;
   margin: 50px 0 20px 0;
 }
 .soft-skills {
@@ -300,15 +297,15 @@ hr {
 .educationBlockWrapper {
   display: flex;
   justify-content: space-between;
-  margin: 0 7vw;
+  margin: 0 5vw;
   flex-wrap: wrap;
 }
 .educationBlock {
-  margin-top: 55px;
   display: flex;
   flex-direction: column;
-  min-width: 28vw;
+  min-width: 27vw;
   max-width: 300px;
+  margin: 55px auto 0 auto;
 }
 .educationTitle {
   padding: 10px 0;
