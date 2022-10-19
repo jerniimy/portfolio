@@ -303,8 +303,9 @@ hr {
 .educationBlock {
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
   min-width: 27vw;
-  max-width: 300px;
+  max-width: 250px;
   margin: 55px auto 0 auto;
 }
 .educationTitle {
