@@ -130,7 +130,7 @@ a {
 .wrapper {
   display: flex;
   padding: 0 100px;
-  margin-top: 25vh;
+  margin-top: 10vh;
   margin-bottom: 100px;
   align-items: flex-end;
   justify-content: center;
@@ -409,6 +409,9 @@ footer {
   }
 }
 @media (max-width: 1000px) {
+  .wrapper {
+    margin-top: 25vh;
+  }
   .myskills {
     justify-content: center;
   }
