@@ -247,7 +247,9 @@ hr {
   max-height: 600px;
   background: #F9F4F0;
   padding: 35px;
-  margin-top: 45px;
+  left: 0;
+  right: 0;
+  margin: 45px auto 0 auto;
 }
 .skillsArea {
   font-family: var(--title);
