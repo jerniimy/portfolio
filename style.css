@@ -56,11 +56,7 @@ header {
   color: var(--grey);
   font-family: var(--paragraph);
   font-weight: 100;
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-size: 2vw;
->>>>>>> a116e6ee86a2d5a6dabadd3138e6940ee8f8d659
 }
 .logo {
   font-style: italic;
