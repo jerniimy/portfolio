@@ -52,12 +52,13 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 100px 0 100px;
+  margin: 20px 5vw 0 5vw;
   color: var(--grey);
   font-family: var(--paragraph);
   font-weight: 100;
+  font-size: 20px;
 }
-header p {
+.logo {
   font-style: italic;
 }
 a {
