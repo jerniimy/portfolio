@@ -237,12 +237,14 @@ hr {
 .blockWrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .block {
   box-sizing: border-box;
+  min-width: 350px;
   width: 40vw;
   min-height: 450px;
-  height: 60vh;
+  height: max-content;
   max-height: 600px;
   background: #F9F4F0;
   padding: 35px;
@@ -277,13 +279,19 @@ hr {
   margin: 50px 0 20px 0;
 }
 .soft-skills {
-  margin: 0 100px;
+  margin: 0 5vw;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-bottom: 150px;
 }
 .soft-skillBlock {
-  width: 30%;
+  padding: 0 20px;
+  min-width: 27vw;
+  max-width: 300px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .education {
   display: flex;
@@ -292,13 +300,15 @@ hr {
 .educationBlockWrapper {
   display: flex;
   justify-content: space-between;
-  margin: 0 100px;
+  margin: 0 7vw;
+  flex-wrap: wrap;
 }
 .educationBlock {
   margin-top: 55px;
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  min-width: 28vw;
+  max-width: 300px;
 }
 .educationTitle {
   padding: 10px 0;
