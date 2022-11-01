@@ -192,13 +192,16 @@ a {
 hr {
   margin: 0 100px 40px 100px;
 }
+.text {
+  min-width: 40vw;
+}
 .firstProject {
   display: flex;
   justify-content: space-between;
   margin: 0 100px 40px 100px;
 }
 .siteDesignImg {
-  width: 55%;
+  width: 55vw;
   overflow-y: scroll;
   overflow-x: auto;
   max-height: 500px;
