@@ -22,23 +22,33 @@ document.getElementById('cinema').addEventListener('mouseover', (e) => {
 document.getElementById('cinema').addEventListener('mouseout', (e) => {
   document.getElementById('cinemaPoster').style.opacity = '0';
 });
+
 document.getElementById('rings').addEventListener('mouseover', (e) => {
   document.getElementById('ringsPoster').style.opacity = '1';
 });
 document.getElementById('rings').addEventListener('mouseout', (e) => {
   document.getElementById('ringsPoster').style.opacity = '0';
 });
+
 document.getElementById('planet').addEventListener('mouseover', (e) => {
   document.getElementById('planetPoster').style.opacity = '1';
 });
 document.getElementById('planet').addEventListener('mouseout', (e) => {
   document.getElementById('planetPoster').style.opacity = '0';
 });
+
 document.getElementById('cosmetics').addEventListener('mouseover', (e) => {
   document.getElementById('cosmeticsPoster').style.opacity = '1';
 });
 document.getElementById('cosmetics').addEventListener('mouseout', (e) => {
   document.getElementById('cosmeticsPoster').style.opacity = '0';
+});
+
+document.getElementById('work').addEventListener('mouseover', (e) => {
+  document.getElementById('workBanner').style.opacity = '1';
+});
+document.getElementById('work').addEventListener('mouseout', (e) => {
+  document.getElementById('workBanner').style.opacity = '0';
 });
 
 if (location.hash) {
